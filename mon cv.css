@@ -1,0 +1,148 @@
+ @page {
+            size: A4;
+            margin: 15mm 15mm;
+            background-color: #ffffff;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #2c3e50;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            font-size: 10.5pt;
+        }
+        .header-table {
+            display: table;
+            width: 100%;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .header-text-cell {
+            display: table-cell;
+            vertical-align: middle;
+            width: 78%;
+        }
+        .header-photo-cell {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: right;
+            width: 22%;
+        }
+        .header h1 {
+            font-size: 18pt;
+            color: #1a252f;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+        }
+        .personal-details {
+            font-size: 9.5pt;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .contact-info {
+            font-size: 9.5pt;
+            color: #566573;
+            margin: 3px 0;
+        }
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .photo-placeholder {
+            display: inline-block;
+            width: 95px;
+            height: 115px;
+            border: 2px dashed #bdc3c7;
+            background-color: #f8f9f9;
+            border-radius: 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .photo-placeholder-text {
+            font-size: 8.5pt;
+            color: #95a5a6;
+            margin-top: 42px;
+            font-weight: bold;
+            padding: 0 5px;
+        }
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #1a252f;
+            text-transform: uppercase;
+            border-left: 4px solid #2980b9;
+            padding-left: 8px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        .objective-box {
+            background-color: #f8f9f9;
+            border: 1px solid #e5e8e8;
+            padding: 12px 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .objective-title {
+            font-weight: bold;
+            color: #2980b9;
+            font-size: 11pt;
+            margin-bottom: 4px;
+        }
+        .item {
+            margin-bottom: 12px;
+            page-break-inside: avoid;
+        }
+        .item-header {
+            display: table;
+            width: 100%;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+        .item-title {
+            display: table-cell;
+            text-align: left;
+        }
+        .item-date {
+            display: table-cell;
+            text-align: right;
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .item-sub {
+            font-style: italic;
+            color: #566573;
+            margin-bottom: 4px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+        }
+        .skills-table td {
+            padding: 6px 0;
+            vertical-align: top;
+        }
+        .skills-table td.label {
+            font-weight: bold;
+            width: 25%;
+            color: #34495e;
+        }
+        .skills-table td.content {
+            width: 75%;
+        }
